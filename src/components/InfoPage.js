@@ -51,7 +51,7 @@ const useStyles = makeStyles(theme => ({
     }
   },
   time: {
-    fontSize: "22px",
+    fontSize: "30px",
     marginLeft: "30px",
     marginRight: "30px"
   },
@@ -78,7 +78,7 @@ export default function InfoPage() {
             inputProps={{ "aria-label": "search" }}
           />
         </div>
-        <div className={classes.timeSelection} noWrap>
+        <div className={classes.timeSelection} >
           <NavigateBeforeIcon fontSize="small" />
           <span className={classes.time}>{"Today"}</span>
           <NavigateNextIcon fontSize="small" />

@@ -1,10 +1,15 @@
 import React from "react";
-import logo from "./logo.svg";
 import "./App.css";
 import InfoPage from "./components/InfoPage";
+import InfoCard from './components/InfoCard';
 
 function App() {
-  return <InfoPage />;
+  return (
+    <React.Fragment>
+      <InfoPage />
+      <InfoCard />
+    </React.Fragment>
+  );
 }
 
 export default App;
